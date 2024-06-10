@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("./assets/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 92vh;
+    position: relative;
+    /* need to revise this part */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.black{
+    height: 92vh;
+    width:100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+}
+.logo{
+    height: 3.5rem;
+    width: 9.2rem;
+    color: rgb(229, 9, 20);
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    z-index: 10;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+}
+.language{
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+.sign{
+    font-size: 15px;
+    color: white;
+    background-color:red;
+    padding: 7px;
+    width: 77px;
+    border-radius: 5px;
+    border: none;
+}
+.text{
+    color: white;
+}
+.texts{
+    height: 100%;
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.texts h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.text:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.text:nth-child(3){
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.email{
+    color: rgb(255, 255, 255,1);
+    padding: 15px;
+    width: 300px;
+    background-color: grey;
+    /* background: transparent; */
+    opacity: 0.2;
+}
+.get{
+    padding: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+}
+.second{
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif; 
+}
+.second img{
+    height: 440px;
+}
+.second h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.second p{
+    font-size: 1.5rem;
+}
+@media only screen and (max-width:1224px) {
+    .second{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+.tv{
+    position: relative;
+}
+.tv video{
+    height: 239px;
+    position: absolute;
+    top: 92px;
+    right: 84px;    
+}
